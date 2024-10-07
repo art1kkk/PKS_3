@@ -1,16 +1,3 @@
 # pks3
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="1280" alt="Снимок экрана 2024-10-07 170338" src="https://github.com/user-attachments/assets/f81865a4-7595-462a-beb6-86f48139ad68">
+<img width="1280" alt="Снимок экрана 2024-10-07 170413" src="https://github.com/user-attachments/assets/94c17a27-40f1-4d93-940c-cc083381770e">

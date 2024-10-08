@@ -1,4 +1,5 @@
 # Практическая работа номер 3.
 # Ендолов Артур Юрьевич ЭФБО-03-22
-<img width="1280" alt="Снимок экрана 2024-10-07 170338" src="https://github.com/user-attachments/assets/f81865a4-7595-462a-beb6-86f48139ad68">
-<img width="1280" alt="Снимок экрана 2024-10-07 170413" src="https://github.com/user-attachments/assets/94c17a27-40f1-4d93-940c-cc083381770e">
+<img width="185" alt="Снимок экрана 2024-10-08 180511" src="https://github.com/user-attachments/assets/58b9829f-d621-4659-a4cd-9f2d4da5a532">
+<img width="179" alt="Снимок экрана 2024-10-08 180537" src="https://github.com/user-attachments/assets/1fc0f7c5-b356-48f1-a2b0-eb81eb4db1aa">
+

@@ -48,22 +48,69 @@ class CardScreen extends StatelessWidget {
         itemCount: cards.length,
         itemBuilder: (context, index) {
           final card = cards[index];
-          return Card(
-            margin: const EdgeInsets.all(10),
-            child: Column(
-              children: [
-                Image.asset(card['image']!),
-                Padding(
-                  padding: const EdgeInsets.all(16.0),
-                  child: Text(
-                    card['description']!,
-                    style: const TextStyle(fontSize: 16),
+          return GestureDetector(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => DetailScreen(
+                    imagePath: card['image']!,
+                    description: card['description']!,
                   ),
                 ),
-              ],
+              );
+            },
+            child: Card(
+              margin: const EdgeInsets.all(10),
+              child: Column(
+                children: [
+                  Image.asset(card['image']!),
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Text(
+                      card['description']!,
+                      style: const TextStyle(fontSize: 16),
+                    ),
+                  ),
+                ],
+              ),
             ),
           );
         },
+      ),
+    );
+  }
+}
+
+class DetailScreen extends StatelessWidget {
+  final String imagePath;
+  final String description;
+
+  const DetailScreen({
+    super.key,
+    required this.imagePath,
+    required this.description,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Детали президента'),
+      ),
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Image.asset(imagePath),
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Text(
+              description,
+              style: const TextStyle(fontSize: 20),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
       ),
     );
   }
